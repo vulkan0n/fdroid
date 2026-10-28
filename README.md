@@ -31,6 +31,10 @@ Repositorio F-Droid auto-hospedado de **Bolsillo BCH** (`bch.bolsillo.app`), ser
 6. `fdroid update`
 7. Commit y push de `repo/` (no de `config.yml` ni `keystore.p12`).
 
+> **Importante:** `repo/diff/` también se publica. El cliente F-Droid lo usa para
+> actualizaciones incrementales; si falta, el update falla con 404 en
+> `repo/diff/<timestamp>.json`.
+
 ## Firma
 
 El APK se firma con `android/bolsillo-release.keystore` (repo de la app). Es una firma distinta a la de Google Play: instalar este APK sobre una versión de Play requiere desinstalar primero.
