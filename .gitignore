@@ -7,9 +7,9 @@ keystore.p12
 tmp/
 repo/status/
 
-# Icon source (the served copy lives in repo/icons/)
-icon.png
-artwork/
+# Icon source at the project root (served copies live in repo/ and metadata/)
+/icon.png
+/artwork/
 
 # Python
 .venv/
