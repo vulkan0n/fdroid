@@ -1,0 +1,20 @@
+# F-Droid signing secrets — NEVER commit these
+config.yml
+keystore.p12
+
+# Build internals
+.fdroidserver/
+tmp/
+repo/status/
+
+# Icon source (the served copy lives in repo/icons/)
+icon.png
+artwork/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Delta indexes (optional)
+repo/diff/

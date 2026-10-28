@@ -1,0 +1,25 @@
+Categories:
+  - Money
+License: BSD-3-Clause
+AuthorName: Bolsillo BCH
+AuthorEmail: superbchat.cash@gmail.com
+WebSite: https://vulkan0n.github.io/bolsillo-bch-site/
+SourceCode: https://github.com/vulkan0n/bolsillo-bch
+IssueTracker: https://github.com/vulkan0n/bolsillo-bch/issues
+Changelog: https://github.com/vulkan0n/bolsillo-bch/commits/main
+AutoName: Bolsillo BCH
+Summary: Billetera de autocustodia de Bitcoin Cash, simple y en pesos
+Description: |-
+  Bolsillo BCH es una billetera de autocustodia para Bitcoin Cash pensada
+  para usuarios que no son cripto-entusiastas.
+
+  Tus claves y tu frase semilla se guardan unicamente en tu dispositivo,
+  cifrados. La app no tiene cuentas ni registro: vos sos el dueno de tus
+  fondos.
+
+  Incluye copia de seguridad opcional y cifrada en tu propio Google Drive,
+  montos en pesos argentinos, modo estable y una interfaz minimalista.
+
+  Esta es una version adaptada del proyecto Selene Wallet.
+AntiFeatures:
+  - NonFreeDep
