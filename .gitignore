@@ -16,5 +16,3 @@ repo/status/
 __pycache__/
 *.pyc
 
-# Delta indexes (optional)
-repo/diff/
